@@ -10,6 +10,7 @@ namespace ExercicioFor
     {
         static void Main(string[] args)
         { 
+            // Basta substituir a potencia e o número
             int potencia = 2;
             int numero = 5;
             int r = 1;
@@ -17,7 +18,7 @@ namespace ExercicioFor
             {
                 r *= numero;
             }
-            Console.WriteLine(r);
+            Console.WriteLine("O resultado da potência é " + r);
 
             Console.ReadLine();
         }
